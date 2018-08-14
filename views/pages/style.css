@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(134, 31, 4);
+}
+
+.navbar.navbar-expand-md.navbar-light {
+    background-color: rgb(199, 160, 60);
+}
+
+.navbar-nav.mr-auto {
+    font-size: 1.5em;
+}
+
+.navbar-nav.ml-auto {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 4vh;
+}
+
+.contentDiv {
+    background-color: rgb(199, 160, 60);
+}
+
+.charCard, .booklist, .booklist-mb {
+    background-color: rgb(167, 102, 28);
+    
+}
+
+.booklist-mb {
+    color: white;
+}
+
+.booklist-mb:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.book-group {
+    break-inside: avoid-column;
+}
+
+@media (max-width: 768px) {
+    .container.mt-4.mainDiv {
+        column-count: 1; 
+    }
+    .card-columns {
+        column-count: 1;
+    }
+    .reinc-table {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+
+@media (min-width: 579px) and (max-width: 960px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) {
+    .book-cont {
+        column-count: 2;
+    }
+
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+}
+
+.container.main {
+    padding-bottom: 20px;
+    min-height: 70%;
+    min-height: -webkit-calc(100vh - 72px - 126px);
+    min-height: -moz-calc(100vh - 72px - 126px);
+    min-height: calc(100vh - 72px - 126px);
+  }
+
+.tab-bg {
+    background-color: rgb(199, 160, 60);
+}
+
+.booklist .active {
+    background-color: rgb(199, 134, 60) !important;
+}
